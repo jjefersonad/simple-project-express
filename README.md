@@ -1,6 +1,6 @@
-# Teste Express #
+# Projeto Simple Express #
 
-## Informções para instalação: ##
+## Informações para instalação: ##
 
 #### Vesrão do NodeJs: ####
 `v18.9.0`
