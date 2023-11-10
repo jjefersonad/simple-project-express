@@ -6,7 +6,7 @@
 `v18.9.0`
 #### Comandos: ####
 - `npm install`
-- `node app.js`
+- `npm run dev`
 
 
 ## Descrição das responsabilidades do microsserviço:
