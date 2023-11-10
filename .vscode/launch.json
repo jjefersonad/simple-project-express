@@ -4,10 +4,19 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug Node.js",
-      "program": "${workspaceFolder}/app.js",
-      "runtimeArgs": ["--inspect"],
-      "outFiles": ["${workspaceFolder}/out/**/*.js"]
+      "name": "Debug TypeScript",
+      "runtimeArgs": [
+        "-r",
+        "ts-node/register/transpile-only"
+      ],
+      "args": [
+        "${workspaceFolder}/src/server.ts"
+      ],
+      "sourceMaps": true,
+      "cwd": "${workspaceFolder}",
+      "protocol": "inspector",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
     }
   ]
 }

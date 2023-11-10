@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", //Diretório onde será compilado
+    "rootDir": "./src", //Diretório do projeto
+    "module": "CommonJS",
+    "target": "es2019",
+    "esModuleInterop": true,
+    "allowJs": true
+  }
+}
